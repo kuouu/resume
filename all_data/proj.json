@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Real-time Messaging App",
+        "skills": ["Express.js", "Socket.io"],
+        "links": ["[website](https://fse-chat.glitch.me/)"],
+        "details": [
+            "Developed a chatting app using object-oriented programming in JavaScript, emphasizing encapsulation and inheritance",
+            "Applied the Block Element Modifier (BEM) methodology in frontend development, ensuring a modular CSS approach",
+            "Incorporated Prisma (ORM) with the SQLite database, ensuring type-safe DB interactions and streamlined data management"
+        ]
+    },
+    {
+        "title": "Shopping Mall Navigator (Meichu Hackathon)",
+        "skills": ["Chatbot", "React.js", "FastAPI"],
+        "links": ["[code](https://github.com/OscarShiang/meichu-stack)", "[website](https://line-tv.kuouu.tw)"],
+        "details": [
+            "Developed a customer-centric system aimed at recommending stores of interest, enhancing the overall shopping experience",
+            "Integrated LINE BEACON technology to detect customer entry, initiating an immediate in-store guide via a chatbot",
+            "Designed a graphical dashboard interface for store owners, facilitating chatbot design and marketing data monitoring"
+        ]
+    },
+    {
+        "title": "Smart Home App",
+        "skills":["React.js", "Flask", "Web Notification API"],
+        "links": ["[code](https://github.com/kuouu/smart-room-frontend)"],
+        "details": [
+            "Implemented push notifications via service workers, ensuring real-time app updates and enhancing user experience",
+            "Developed a web dashboard for efficient smart home appliance scheduling, resulting in a 20\\% reduction in energy consumption"
+        ]
+    }
+]

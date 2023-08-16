@@ -1,0 +1,61 @@
+%-------------------------------------------
+% Resume in LuaLatex
+% Author: Kumar Pallav
+% (Works with Overleaf)
+%-------------------------------------------
+\documentclass[letterpaper,10pt]{article}
+
+\input{preamble.tex}
+\input{command.tex}
+
+\begin{document}
+
+% Load lua script
+%-------------------------------------------
+\begin{luacode}
+require("parser.lua")
+\end{luacode}
+
+% Print Heading
+%-------------------------------------------
+\directlua{printHeading("_data/personal.json")}
+
+% Print Education
+%-------------------------------------------
+\section{Education}
+  \resumeSubHeadingListStart
+	\directlua{printEduItems("_data/edu.json")}
+  \resumeSubHeadingListEnd
+  
+% Print Skills
+%-------------------------------------------
+\section{Technical Skills}
+  \resumeSubHeadingListStart 
+    \vspace{5pt}\item{
+      \textbf{Programming Languages}{: \directlua{printList("_data/personal.json", "languages")}} \\
+      \textbf{Framework}{: \directlua{printList("_data/personal.json", "technologies")}}
+      }
+  \resumeSubHeadingListEnd
+
+% Print Experience
+%-------------------------------------------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+  	\directlua{printExpItems("_data/exp.json")}
+  \resumeSubHeadingListEnd
+
+% Print Projects
+%-------------------------------------------
+\section{{Projects}}
+  \resumeSubHeadingListStart
+    \directlua{printProjItems("_data/proj.json")}
+  \resumeSubHeadingListEnd
+
+% Print Orginizations
+%-------------------------------------------
+% \section{{Orginizations \& Activities}}
+%   \resumeSubHeadingListStart
+%     \directlua{printOrgItems("_data/org.json")}
+%   \resumeSubHeadingListEnd
+
+\end{document}
