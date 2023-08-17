@@ -1,12 +1,12 @@
 [
     {
-        "title": "Real-time Messaging App",
-        "skills": ["Express.js", "Socket.io"],
-        "links": ["[website](https://fse-chat.glitch.me/)"],
+        "title": "Fight COVID-19 - Tower Defense Game",
+        "skills": ["Java", "Unified Modeling Language (UML)"],
+        "links": ["[code](https://github.com/kuouu/fight-covid19)"],
         "details": [
-            "Developed a chatting app using object-oriented programming in JavaScript, emphasizing encapsulation and inheritance",
-            "Applied the Block Element Modifier (BEM) methodology in frontend development, ensuring a modular CSS approach",
-            "Incorporated Prisma (ORM) with the SQLite database, ensuring type-safe DB interactions and streamlined data management"
+            "Developed a tower defense game to raise awareness about the importance of taking preventive measures against COVID-19",
+            "Utilized Java and object-oriented programming (OOP) principles to create a robust and scalable game architecture",
+            "Utilized UML to map out the game's core functionalities, ensuring a clear understanding of the system's flow and interactions"
         ]
     },
     {
