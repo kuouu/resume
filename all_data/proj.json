@@ -27,5 +27,16 @@
             "Implemented push notifications via service workers, ensuring real-time app updates and enhancing user experience",
             "Developed a web dashboard for efficient smart home appliance scheduling, resulting in a 20\\% reduction in energy consumption"
         ]
+    },
+    {
+        "title": "Fight COVID-19 - Tower Defense Game",
+        "skills": ["Java", "Unified Modeling Language (UML)"],
+        "links": ["[code](https://github.com/kuouu/fight-covid19)"],
+        "details": [
+            "Developed a Java-based game inspired by \"Plants vs. Zombies\" to raise awareness about the importance of taking preventive measures against COVID-19",
+            "Utilized Java programming language and object-oriented programming (OOP) principles to create a robust and scalable game architecture",
+            "Designed various characters with unique attributes, such as health points (HP), attack points (ATK), cost, and speed, to simulate the defense against the virus",
+            "Utilized UML to map out the game's core functionalities, ensuring a clear understanding of the system's flow and interactions"
+        ]
     }
 ]
