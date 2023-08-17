@@ -6,29 +6,37 @@
         "linkedin":"kuouu",
         "github": "kuouu",
         "address": "Santa Clara, CA 95051",
-        "languages": [
-            "JavaScript", 
-            "TypeScript", 
-            "Python", 
-            "C/C++", 
-            "Java", 
-            "PHP", 
-            "SQL",
-            "Bash"
-        ],
-        "technologies": [
-            "React.js", 
-            "Next.js", 
-            "Chakra-UI", 
-            "WordPress", 
-            "Vue.js", 
-            "Node.js", 
-            "Flask", 
-            "Docker", 
-            "Azure", 
-            "MySQL", 
-            "PyTorch", 
-            "Git"
+        "skills": [
+            {
+                "name": "Languages",
+                "items": [
+                    "JavaScript", 
+                    "TypeScript", 
+                    "Python", 
+                    "C/C++", 
+                    "Java", 
+                    "PHP", 
+                    "SQL",
+                    "Bash"
+                ]
+            },
+            {
+                "name": "Frameworks",
+                "items": [
+                    "React.js", 
+                    "Next.js", 
+                    "Chakra-UI", 
+                    "WordPress", 
+                    "Vue.js", 
+                    "Node.js", 
+                    "Flask", 
+                    "Docker", 
+                    "Azure", 
+                    "MySQL", 
+                    "PyTorch", 
+                    "Git"
+                ]
+            }
         ]
     }
 ]

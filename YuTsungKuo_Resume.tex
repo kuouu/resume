@@ -30,12 +30,9 @@ require("parser.lua")
 % Print Skills
 %-------------------------------------------
 \section{Technical Skills}
-  \resumeSubHeadingListStart 
-    \vspace{5pt}\item{
-      \textbf{Programming Languages}{: \directlua{printList("_data/personal.json", "languages")}} \\
-      \textbf{Framework}{: \directlua{printList("_data/personal.json", "technologies")}}
-      }
-  \resumeSubHeadingListEnd
+  \vspace{-8pt}\begin{multicols}{2}
+    \directlua{printSkillItems("_data/personal.json")}
+  \end{multicols}
 
 % Print Experience
 %-------------------------------------------

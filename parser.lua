@@ -97,15 +97,13 @@ function printOrgItems(file)
   tex.print("\\resumeItemListEnd")
 end
 
-function printList(file, primary)
+function printSkillItems(file)
   local json = getJsonFromFile(file)
-  local skills = {}
-  for _, value in pairs(json) do
-    for _, language_or_technology in ipairs(value[primary]) do
-      table.insert(skills, language_or_technology)
-    end
+  local skills = json[1]
+
+  for _, skillCategory in pairs(skills.skills) do
+    tex.print("\\vbox{\\textbf{" .. skillCategory.name .. ":} \\par\\noindent " .. table.concat(skillCategory.items, ", ") .. "}")
   end
-  tex.print(table.concat(skills, ", "))
 end
 
 function getJsonFromFile(file)
