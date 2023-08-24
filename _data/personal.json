@@ -9,47 +9,19 @@
         "skills": [
             {
                 "name": "Languages",
-                "items": [
-                    "Java",
-                    "Python",
-                    "JavaScript",
-                    "C/C++",
-                    "SQL",
-                    "Bash",
-                    "PHP"
-                ]
+                "items": [ "TypeScript", "Python", "Java", "JavaScript", "C/C++", "PHP"]
             },
             {
                 "name": "DevOps and Cloud",
-                "items": [
-                    "OCI",
-                    "Azure",
-                    "AWS",
-                    "Docker",
-                    "Kubernetes",
-                    "Github Actions"
-                ]
+                "items": ["Azure", "AWS", "Docker", "Kubernetes", "Github Actions"]
             },
             {
                 "name": "Web Development",
-                "items": [
-                    "Next.js",
-                    "Vue.js",
-                    "Express.js",
-                    "Flask",
-                    "MongoDB",
-                    "MySQL"
-                ]
+                "items": ["Next.js", "Vue.js", "Express.js", "Flask", "MongoDB", "MySQL"]
             },
             {
-                "name": "Development Methods",
-                "items": [
-                    "Scrum",
-                    "Agile",
-                    "XP",
-                    "Waterfall",
-                    "Test-Driven Development"
-                ]
+                "name": "User Experience",
+                "items": ["Figma", "Zeplin", "Usability Testing", "Double Diamond"]
             }
         ]
     }
