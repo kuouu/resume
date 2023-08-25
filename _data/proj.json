@@ -4,7 +4,7 @@
         "skills": ["Express.js", "Socket.io"],
         "links": ["[website](https://fse-chat.glitch.me/)"],
         "details": [
-            "Developed a chatting app using object-oriented programming in JavaScript, emphasizing encapsulation and inheritance",
+            "Crafted a chatting app using JavaScript's object-oriented programming principles such as encapsulation and inheritance",
             "Applied the Block Element Modifier (BEM) methodology in frontend development, ensuring a modular CSS approach",
             "Incorporated Prisma (ORM) with the SQLite database, ensuring type-safe DB interactions and streamlined data management"
         ]
@@ -14,7 +14,7 @@
         "skills": ["Chatbot", "React.js", "FastAPI"],
         "links": ["[code](https://github.com/OscarShiang/meichu-stack)", "[website](https://line-tv.kuouu.tw)"],
         "details": [
-            "Developed a customer-centric system aimed at recommending stores of interest, enhancing the overall shopping experience",
+            "Built a customer-centric system aimed at recommending stores of interest, elevating the overall shopping experience",
             "Integrated LINE BEACON technology to detect customer entry, initiating an immediate in-store guide via a chatbot",
             "Designed a graphical dashboard interface for store owners, facilitating chatbot design and marketing data monitoring"
         ]
