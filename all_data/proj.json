@@ -37,5 +37,23 @@
             "Utilized Java and object-oriented programming (OOP) principles to create a robust and scalable game architecture",
             "Utilized UML to map out the game's core functionalities, ensuring a clear understanding of the system's flow and interactions"
         ]
+    },
+    {
+        "title": "Smart Audio Mixer",
+        "skills": ["C++", "JUCE"],
+        "links": ["[code](https://github.com/kuouu/smart-audio-mixer)"],
+        "details": [
+            "Led a three-member team to build a modern audio editor with third-party plugin support",
+            "Reconstructed the user interface of the application to improve usability and match different operating systems' needs"
+        ]
+    },
+    {
+        "title": "Data Station (Tainan Innovation Datathon)",
+        "skills": ["React.js", "Apache ECharts"],
+        "links": [],
+        "details": [
+            "Conceived and implemented an intuitive evaluation system to transparently communicate the company's environmental initiatives and impacts, promoting corporate transparency and accountability",
+            "Integrated and meticulously analyzed data from three disparate enterprise systems, harnessing insights to advance ESG (Environmental, Social, and Governance) responsibility and foster a sustainable operational cycle"
+        ]
     }
 ]
