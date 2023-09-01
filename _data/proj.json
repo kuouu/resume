@@ -1,12 +1,11 @@
 [
     {
-        "title": "Real-time Messaging App",
-        "skills": ["Express.js", "Socket.io"],
-        "links": ["[website](https://fse-chat.glitch.me/)"],
+        "title": "Smart Audio Mixer",
+        "skills": ["C++", "JUCE"],
+        "links": ["[code](https://github.com/kuouu/smart-audio-mixer)"],
         "details": [
-            "Crafted a chatting app using JavaScript's object-oriented programming principles such as encapsulation and inheritance",
-            "Applied the Block Element Modifier (BEM) methodology in frontend development, ensuring a modular CSS approach",
-            "Incorporated Prisma (ORM) with the SQLite database, ensuring type-safe DB interactions and streamlined data management"
+            "Led a three-member team to build a modern audio editor with third-party plugin support",
+            "Reconstructed the user interface of the application to improve usability and match different operating systems' needs"
         ]
     },
     {

@@ -20,8 +20,8 @@
                 "items": ["Next.js", "Vue.js", "Express.js", "Flask", "MongoDB", "MySQL"]
             },
             {
-                "name": "User Experience",
-                "items": ["Figma", "Zeplin", "Usability Testing", "Double Diamond"]
+                "name": "Desktop Application",
+                "items": ["Qt", "JUCE", "Electron", "Unity"]
             }
         ]
     }
