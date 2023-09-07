@@ -30,9 +30,11 @@ require("parser.lua")
 % Print Skills
 %-------------------------------------------
 \section{Skills}
-  \vspace{-5pt}\begin{multicols}{4}
-    \directlua{printSkillItems("_data/personal.json")}
-  \end{multicols}
+  \resumeSubHeadingListStart 
+    \vspace{5pt}\item{
+      \directlua{printSkillItems("_data/personal.json")}
+    }
+  \resumeSubHeadingListEnd
 
 % Print Experience
 %-------------------------------------------

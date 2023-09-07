@@ -102,8 +102,19 @@ function printSkillItems(file)
   local skills = json[1]
 
   for _, skillCategory in pairs(skills.skills) do
-    tex.print("\\vbox{\\textbf{" .. skillCategory.name .. ":} \\par\\noindent " .. table.concat(skillCategory.items, ", ") .. "}")
+    tex.print("\\textbf{" .. skillCategory.name .. ":  }" .. table.concat(skillCategory.items, ", ") .. "\\par")
   end
+end
+
+function printList(file, primary)
+  local json = getJsonFromFile(file)
+  local skills = {}
+  for _, value in pairs(json) do
+    for _, language_or_technology in ipairs(value[primary]) do
+      table.insert(skills, language_or_technology)
+    end
+  end
+  tex.print(table.concat(skills, ", "))
 end
 
 function getJsonFromFile(file)
@@ -132,5 +143,3 @@ function markdownToLatex(input)
 
   return input
 end
-
-

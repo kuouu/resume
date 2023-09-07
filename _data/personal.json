@@ -18,10 +18,6 @@
             {
                 "name": "Web Development",
                 "items": ["Next.js", "Vue.js", "Express.js", "Flask", "MongoDB", "MySQL"]
-            },
-            {
-                "name": "Desktop Application",
-                "items": ["Qt", "JUCE", "Electron", "Unity"]
             }
         ]
     }
