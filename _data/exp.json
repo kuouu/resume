@@ -1,10 +1,10 @@
 [
     {
-        "company": "[Your Knowledge](https://yourknowledge.online)",
+        "company": "[Your Knowledge](https://yourknowledge.online) (start-up)",
         "company_location": "Remote",
         "role": "Software Engineer",
         "skills": "WordPress・Next.js・Azure・Devops",
-        "time_duration": "December 2022 - Present",
+        "time_duration": "Dec 2022 - Present",
         "details": [
             "Developed a custom WordPress theme using PHP and TailwindCSS for an online course website, featuring an intuitive Theme Editor empowering non-developers to personalize the website's content",
             "Utilized GraphQL for precise data-fetching, resulting in a 50\\% reduction in backend data over-fetching",
@@ -19,7 +19,7 @@
         "company_location": "Tainan, Taiwan",
         "role": "Software Engineer",
         "skills": "React.js・Chakra-UI・Figma",
-        "time_duration": "July 2020 - October 2022",
+        "time_duration": "July 2020 - Oct 2022",
         "details": [
             "Handled frontend development single-handedly for the [Digital Diploma project](https://dcert.moe.gov.tw), adopted by 60 universities in Taiwan",
             "Developed the NCKU Digital Transcript [Application](https://stuapply.diploma.ncku.edu.tw/release) / [Verification](https://stuapply.diploma.ncku.edu.tw/verify) System from the ground up, enhancing document application efficiency by moving the entire process online, benefiting over 2000 graduates annually",
@@ -34,7 +34,7 @@
         "company_location": "Tainan, Taiwan",
         "role": "Software Engineer",
         "skills": "PyTorch・Recommendation System・React.js",
-        "time_duration": "October 2019 - June 2022",
+        "time_duration": "Oct 2019 - June 2022",
         "details": [
             "Devised and created a graph convolution network-based [recommendation system](https://github.com/kuouu/dating-app-recsys) for a dating app's matching algorithm, incorporating user profiles analysis and chat status evaluation to achieve 60\\% accuracy in recall score",
             "Optimized the recommendation system by utilizing the Linguistic Inquiry and Word Count, boosting accuracy to 75\\%",
