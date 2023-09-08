@@ -17,7 +17,7 @@
             },
             {
                 "name": "Machine Learning",
-                "items": ["PyTorch", "Keras", "Scikit-learn", "TensorFlow", "OpenCV", "Numpy", "Pandas", "Matplotlib"]
+                "items": ["PyTorch", "Keras", "Scikit-learn", "TensorFlow", "OpenCV", "Recommendation System", "GNN"]
             }
         ]
     }
