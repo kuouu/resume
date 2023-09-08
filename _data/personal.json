@@ -8,16 +8,16 @@
         "address": "Santa Clara, CA",
         "skills": [
             {
-                "name": "Languages",
-                "items": [ "TypeScript", "Python", "Java", "JavaScript", "C/C++", "PHP"]
-            },
-            {
-                "name": "DevOps and Cloud",
-                "items": ["Azure", "AWS", "Docker", "Kubernetes", "Github Actions"]
+                "name": "Programming Languages",
+                "items": [ "TypeScript", "JavaScript", "Python", "C/C++", "Java", "PHP", "C\\#", "Bash", "SQL"]
             },
             {
                 "name": "Web Development",
-                "items": ["Next.js", "Vue.js", "Express.js", "Flask", "MongoDB", "MySQL"]
+                "items": ["Next.js", "Vue.js", "Express.js", "Flask", "MongoDB", "MySQL", "Azure", "AWS", "Docker", "Github Actions", "JUnit"]
+            },
+            {
+                "name": "Machine Learning",
+                "items": ["PyTorch", "Keras", "Scikit-learn", "TensorFlow", "OpenCV", "Numpy", "Pandas", "Matplotlib"]
             }
         ]
     }
