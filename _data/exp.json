@@ -22,8 +22,8 @@
         "time_duration": "July 2020 - Oct 2022",
         "details": [
             "Handled frontend development single-handedly for the [Digital Diploma project](https://dcert.moe.gov.tw), adopted by 60 universities in Taiwan",
-            "Developed the NCKU Digital Transcript [Application](https://stuapply.diploma.ncku.edu.tw/release) / [Verification](https://stuapply.diploma.ncku.edu.tw/verify) System from the ground up, enhancing document application efficiency by moving the entire process online, benefiting over 2000 graduates annually",
-            "Built statistical dashboards for visualizing medical data, assisting over 100 healthcare professionals during an epidemic",
+            "Built the NCKU Digital Transcript [Application](https://stuapply.diploma.ncku.edu.tw/release) / [Verification](https://stuapply.diploma.ncku.edu.tw/verify) System from the ground up, enhancing document application efficiency by moving the entire process online, benefiting over 2000 graduates annually",
+            "Collaborated closely with backend developers to construct statistical dashboards for visualizing medical data, delivering valuable tools for over 100 healthcare professionals during an epidemic",
             "Implemented push notifications feature on Smart Home App via service workers, enabling instant energy-saving alerts and resulting in a 20\\% reduction in energy consumption in collaboration with Tokyo Electric Power Company",
             "Coordinated with designers to establish a reusable design system powered by Chakra UI, leveraging its modular components and theming capabilities, resulting in 30\\% acceleration in team development efficiency over 10 projects",
             "Improved code quality by utilizing ESLint and migrating the JavaScript codebase to TypeScript"
