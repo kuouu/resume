@@ -73,16 +73,17 @@ function printProjItems(file)
 
     local skills = ""
     if value["skills"] and #value["skills"] > 0 then
-      skills = skills .. " [ " .. table.concat(value["skills"], ", ") .. " ]"
+      skills = skills .. " [" .. table.concat(value["skills"], ", ") .. "]"
     end
     if value["links"] and #value["links"] > 0 then
       local formattedLinks = {}
       for _, link in ipairs(value["links"]) do
         table.insert(formattedLinks, markdownToLatex(link))
       end
-      skills = skills .. " [ " .. table.concat(formattedLinks, ", ") .. " ]"
+      skills = skills .. " [" .. table.concat(formattedLinks, ", ") .. "]"
     end
     tex.print("{" .. skills .. "}")
+    tex.print("{" .. value["time_duration"] .. "}")
 
     tex.print("\\resumeItemListStart")
     for innerKey, innerValue in pairs(value["details"]) do
