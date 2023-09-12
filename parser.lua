@@ -31,7 +31,15 @@ function printEduItems(file)
     tex.print("{" .. value["school_location"] .. "}")
     tex.print("{" .. value["degree"] .. "}")
     tex.print("{" .. value["time_period"] .. "}")
+    
+    if value["courses"] and #value["courses"] > 0 then
+      local courses = table.concat(value["courses"], ", ")
+      tex.print("{Courses: " .. courses .. "}")
+    else
+      tex.print("{}")
+    end
   end
+
 end
 
 function printExpItems(file)
