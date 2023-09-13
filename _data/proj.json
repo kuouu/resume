@@ -6,7 +6,7 @@
         "time_duration": "July 2023 - July 2023",
         "details": [
             "Developed a chatting app using object-oriented programming in JavaScript, emphasizing encapsulation and inheritance",
-            "Applied the Block Element Modifier (BEM) methodology in frontend development, ensuring a modular CSS approach",
+            "Applied the Block Element Modifier (BEM) methodology in frontend development to ensure a modular CSS approach",
             "Incorporated Prisma (ORM) with the SQLite database, ensuring type-safe DB interactions and streamlined data management"
         ]
     },

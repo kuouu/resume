@@ -1,14 +1,14 @@
 [
     {
-        "company": "[Your Knowledge](https://yourknowledge.online) (start-up)",
+        "company": "[Your Knowledge](https://yourknowledge.online) (startup)",
         "company_location": "Remote",
         "role": "Software Engineer",
-        "skills": "WordPress・Next.js・Azure・Devops",
+        "skills": "Next.js・Azure・Devops・PHP・GraphQL",
         "time_duration": "Dec 2022 - Present",
         "details": [
             "Developed a custom WordPress theme using PHP and TailwindCSS for an online course website, featuring an intuitive Theme Editor empowering non-developers to personalize the website's content",
             "Utilized GraphQL for precise data-fetching, resulting in a 50\\% reduction in backend data over-fetching",
-            "Transformed WordPress to a headless CMS architecture by decoupling front-end and back-end for flexibility and scalability",
+            "Transformed WordPress to a headless CMS architecture by decoupling frontend and backend for flexibility and scalability",
             "Integrated Next.js for the frontend, resulting in a 25\\% improvement in site loading speeds and a more seamless user experience",
             "Introduced Redux for centralized state management and data caching feature, achieving 40\\% reduction in data fetching",
             "Constructed a CI/CD workflow with Docker and GitHub Action, resulting in a 80\\% reduction in deployment time"
@@ -18,14 +18,14 @@
         "company": "[Nightingale AI.](https://19gale.ai)",
         "company_location": "Tainan, Taiwan",
         "role": "Software Engineer",
-        "skills": "React.js・Chakra-UI・Figma",
+        "skills": "React.js・Chakra-UI・TypeScript",
         "time_duration": "July 2020 - Oct 2022",
         "details": [
-            "Handled frontend development single-handedly for the [Digital Diploma project](https://dcert.moe.gov.tw), adopted by 60 universities in Taiwan",
-            "Built the NCKU Digital Transcript [Application](https://stuapply.diploma.ncku.edu.tw/release) / [Verification](https://stuapply.diploma.ncku.edu.tw/verify) System from the ground up, enhancing document application efficiency by moving the entire process online, benefiting over 2000 graduates annually",
-            "Collaborated closely with backend developers to construct statistical dashboards for visualizing medical data, delivering valuable tools for over 100 healthcare professionals during an epidemic",
+            "Developed the website frontend individually for the [Digital Diploma project](https://dcert.moe.gov.tw), adopted by 60 universities in Taiwan",
+            "Built the NCKU Digital Transcript [Application](https://stuapply.diploma.ncku.edu.tw/release) / [Verification](https://stuapply.diploma.ncku.edu.tw/verify) System from scratch, enhancing document application efficiency by moving the entire process online, benefiting over 2000 graduates annually",
+            "Collaborated closely with backend developers to construct statistical dashboards for visualizing medical data, delivering valuable tools for over 100 healthcare professionals during COVID",
             "Implemented push notifications feature on Smart Home App via service workers, enabling instant energy-saving alerts and resulting in a 20\\% reduction in energy consumption in collaboration with Tokyo Electric Power Company",
-            "Coordinated with designers to establish a reusable design system powered by Chakra UI, leveraging its modular components and theming capabilities, resulting in 30\\% acceleration in team development efficiency over 10 projects",
+            "Coordinated with designers to establish a reusable design system powered by Chakra-UI, leveraging its modular components and theming capabilities, resulting in 30\\% acceleration in team development efficiency over 10 projects",
             "Improved code quality by utilizing ESLint and migrating the JavaScript codebase to TypeScript"
         ]
     },
@@ -36,8 +36,8 @@
         "skills": "PyTorch・Recommendation System・React.js",
         "time_duration": "Oct 2019 - June 2022",
         "details": [
-            "Devised and created a graph convolution network-based [recommendation system](https://github.com/kuouu/dating-app-recsys) for a dating app's matching algorithm, incorporating user profiles analysis and chat status evaluation to achieve 60\\% accuracy in recall score",
-            "Optimized the recommendation system by utilizing the Linguistic Inquiry and Word Count, boosting accuracy to 75\\%",
+            "Designed and created a graph convolution network-based [recommendation system](https://github.com/kuouu/dating-app-recsys) for a dating app's matching algorithm, incorporating user profiles analysis and chat status evaluation to achieve 60\\% accuracy in recall score",
+            "Optimized the recommendation system by utilizing the Linguistic Inquiry and Word Count, further boosting accuracy to 75\\%",
             "Engineered an analytical tool to offer insights into application data, enabling the product team to make data-driven decisions"
         ]
     }
