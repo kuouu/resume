@@ -14,10 +14,6 @@
             {
                 "name": "Web Development",
                 "items": ["Next.js", "Vue.js", "Express.js", "Flask", "MongoDB", "MySQL", "Azure", "AWS", "Docker", "Github Actions", "JUnit"]
-            },
-            {
-                "name": "Machine Learning",
-                "items": ["PyTorch", "Keras", "Scikit-learn", "TensorFlow", "OpenCV", "Recommendation System", "GNN"]
             }
         ]
     }
