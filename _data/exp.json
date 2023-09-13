@@ -36,8 +36,8 @@
         "skills": "PyTorch・Recommendation System・React.js",
         "time_duration": "Oct 2019 - June 2022",
         "details": [
-            "Designed and created a graph convolution network-based [recommendation system](https://github.com/kuouu/dating-app-recsys) for a dating app's matching algorithm, incorporating user profiles analysis and chat status evaluation to achieve 60\\% accuracy in recall score",
-            "Optimized the recommendation system by utilizing the Linguistic Inquiry and Word Count, further boosting accuracy to 75\\%",
+            "Designed and created a graph convolution network-based [recommendation system](https://github.com/kuouu/dating-app-recsys) for a dating app's matching algorithm, incorporating user profiles analysis and chat status evaluation to improve accuracy by 30\\% in recall score",
+            "Optimized the recommendation system by utilizing the sentiment and word analysis, further boosting accuracy by 15\\%",
             "Engineered an analytical tool to offer insights into application data, enabling the product team to make data-driven decisions"
         ]
     }
