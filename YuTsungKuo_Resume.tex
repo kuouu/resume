@@ -5,7 +5,7 @@
 %-------------------------------------------
 \documentclass[letterpaper,10pt]{article}
 
-\input{preamble.tex}
+\input{package.tex}
 \input{command.tex}
 
 \begin{document}
@@ -18,7 +18,7 @@ require("parser.lua")
 
 % Print Heading
 %-------------------------------------------
-\directlua{printHeading("_data/personal.json")}
+\input{sections/heading.tex}
 
 % Print Education
 %-------------------------------------------
