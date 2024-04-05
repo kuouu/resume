@@ -19,3 +19,5 @@ Archieve/
 *.upa
 *.upb
 *.fdb_latexmk
+
+.DS_Store
